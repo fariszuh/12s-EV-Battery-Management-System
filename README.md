@@ -1,8 +1,6 @@
 # 12s Battery Management System Research Project
 
-<img src="Foto 14s Baterai Pack.jpg" alt="drawing" width="150"/>
-<img src="Foto PCB Atas.jpg" alt="drawing" width="150"/>
-<img src="Foto PCB Bawah.jpg" alt="drawing" width="150"/>
+<img src="Foto 14s Baterai Pack.jpg" alt="drawing" width="150"/> <img src="Foto PCB Atas.jpg" alt="drawing" width="150"/> <img src="Foto PCB Bawah.jpg" alt="drawing" width="150"/>
 
 ## Introduction
 *This repo used to collaborative work on BMS project*
@@ -10,11 +8,13 @@ This project initiated by Anargya Third Generation Electric Manager Plan, Abyqa 
 He suggested us (4th Electric Generation) to create our independent BMS. 
 In the next year, 2022, We (Rafli as Electric Manager, Faris as Head of Low Voltage Subdiv., Lazu as Head of High Voltage Subdiv) proposed new design according to last Molina BMS.
 The schematics design is located in /Single Board 12s directory. Note: use the latest version _v<number>.sch
+
 <img src="BoM.png" alt="drawing" width="150"/>
 
 ## My Last Progress
 Last progress was programming with Arduino UNO (Faris, Gagas). 
 The code located inside /Code directory.
+
 <img src="Code/Preview Code.png" alt="drawing" width="150"/>
 
 ## Challenge
