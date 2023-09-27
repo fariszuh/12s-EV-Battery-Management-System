@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC6803IG-3#PBF
+D Multicell Battery Stack Monitor Linear Technology LTC6803IG-3#PBF, Battery Charge Controller, 1.6mA, 44-Pin SSOP
+K
+F http://cds.linear.com/docs/en/datasheet/680313fa.pdf
+$ENDCMP
+#
+#End Doc Library

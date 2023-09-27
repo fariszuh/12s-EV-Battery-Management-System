@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LTC6803IG_3#PBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Linear Technology", "LTC6803IG-3#PBF" (!) = "", "SOP50P780X185-44N", "Small Outline Packages", "584-LTC6803IG-3#PBF", "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Linear-Technology/LTC6803IG-3PBF?qs=hVkxg5c3xu8Q%2FSc4ePVcZg%3D%3D", "LTC6803IG-3#PBF", "https://www.arrow.com/en/products/ltc6803ig-3pbf/linear-technology", "Multicell Battery Stack Monitor Linear Technology LTC6803IG-3#PBF, Battery Charge Controller, 1.6mA, 44-Pin SSOP", "http://cds.linear.com/docs/en/datasheet/680313fa.pdf", "1.85 mm"
+END_PART
+
+END.

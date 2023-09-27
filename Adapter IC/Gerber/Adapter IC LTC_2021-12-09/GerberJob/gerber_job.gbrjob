@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-12-09T01:32:35Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Adapter IC LTC"
+        },
+        "Owner": "Muhammad Faris Zuhairi <faris.19071@mhs.its.ac.id>",
+        "Size": {
+            "X": 59.67,
+            "Y": 29.642
+        }
+    }
+}

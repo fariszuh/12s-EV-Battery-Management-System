@@ -1,0 +1,18 @@
+.LTC6803IG-3_PBF :1 ;Multicell Battery Stack Monitor Linear Technology LTC6803IG-3#PBF, Battery Charge Controller, 1.6mA, 44-Pin SSOP
+SOP50P780X185-44N
+*STM IC
+*NGS
+*PLB 1="CSBO" 2="SDOI" 3="SCKO" 4="V+" 5="C12" 6="S12" 7="C11" 8="S11" 9="C10" 10="S10" 11="C9" 12="S9" 13="C8" 14="S8" 15="C7" 16="S7" 17="C6" 18="S6" 19="C5" 20="S5" 21="C4" 22="S4" 23="C3" 24="S3" 25="C2" 26="S2" 27="C1" 28="S1" 29="C0" 30="V-" 31="NC" 32="VTEMP1" 33="VTEMP2" 34="VREF" 35="VREG" 36="TOS" 37="WDTB" 38="GPIO1" 39="GPIO2" 40="VMODE" 41="SCKI" 42="SDI" 43="SDO" 44="CSBI"
+*MXP 44
+*DFN LTC6803IG-3_PBF
+~!Manufacturer_Name (Linear Technology)
+~!Manufacturer_Part_Number (LTC6803IG-3#PBF)
+~!Mouser Part Number (584-LTC6803IG-3#PBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices-Linear-Technology/LTC6803IG-3PBF?qs=hVkxg5c3xu8Q%2FSc4ePVcZg%3D%3D)
+~!Arrow Part Number (LTC6803IG-3#PBF)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ltc6803ig-3pbf/linear-technology)
+~!Link Datasheet (http://cds.linear.com/docs/en/datasheet/680313fa.pdf)
+~!Height (1.85mm)
+~!3D_Model (LTC6803IG-3#PBF)
+LTC6803IG-3_PBF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 44.1!U 43.1!U 42.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 

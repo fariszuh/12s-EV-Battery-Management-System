@@ -1,0 +1,191 @@
+# Created by Ultra Librarian Gold 8.3.302 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'SOIC-16W_SIL.pac';
+Grid Mil;
+Layer 1;
+Smd '1' 74.8031 23.622 -0 R0 (-185.0394 175);
+Layer 1;
+Smd '2' 74.8031 23.622 -0 R0 (-185.0394 125);
+Layer 1;
+Smd '3' 74.8031 23.622 -0 R0 (-185.0394 75);
+Layer 1;
+Smd '4' 74.8031 23.622 -0 R0 (-185.0394 25);
+Layer 1;
+Smd '5' 74.8031 23.622 -0 R0 (-185.0394 -25);
+Layer 1;
+Smd '6' 74.8031 23.622 -0 R0 (-185.0394 -75);
+Layer 1;
+Smd '7' 74.8031 23.622 -0 R0 (-185.0394 -125);
+Layer 1;
+Smd '8' 74.8031 23.622 -0 R0 (-185.0394 -175);
+Layer 1;
+Smd '9' 74.8031 23.622 -0 R0 (185.0394 -175);
+Layer 1;
+Smd '10' 74.8031 23.622 -0 R0 (185.0394 -125);
+Layer 1;
+Smd '11' 74.8031 23.622 -0 R0 (185.0394 -75);
+Layer 1;
+Smd '12' 74.8031 23.622 -0 R0 (185.0394 -25);
+Layer 1;
+Smd '13' 74.8031 23.622 -0 R0 (185.0394 25);
+Layer 1;
+Smd '14' 74.8031 23.622 -0 R0 (185.0394 75);
+Layer 1;
+Smd '15' 74.8031 23.622 -0 R0 (185.0394 125);
+Layer 1;
+Smd '16' 74.8031 23.622 -0 R0 (185.0394 175);
+Layer 41;
+Layer 41;
+Change Spacing 50;
+Change Pour solid;
+Polygon 6  (-229.9409 -210.5) (-229.9409 210.5) (229.9409 210.5) (229.9409 -210.5) (-229.9409 -210.5);
+Layer 47;
+Wire 6 (-185 175) (-282 175);
+Wire 6 (-185 125) (-282 125);
+Wire 6 (-272 175) (-267 185);
+Wire 6 (-267 185) (-277 185);
+Wire 6 (-277 185) (-272 175);
+Wire 6 (-272 175) (-272 225);
+Wire 6 (-272 125) (-267 115);
+Wire 6 (-267 115) (-277 115);
+Wire 6 (-277 115) (-272 125);
+Wire 6 (-272 125) (-272 75);
+Wire 6 (185 -175) (185 -263);
+Wire 6 (-185 -175) (-185 -263);
+Wire 6 (-185 -253) (-175 -258);
+Wire 6 (-175 -258) (-175 -248);
+Wire 6 (-175 -248) (-185 -253);
+Wire 6 (-185 -253) (-135 -253);
+Wire 6 (185 -253) (175 -258);
+Wire 6 (175 -258) (175 -248);
+Wire 6 (175 -248) (185 -253);
+Wire 6 (185 -253) (135 -253);
+Wire 6 (-148 203) (-148 318);
+Wire 6 (148 203) (148 318);
+Wire 6 (-148 303) (148 303);
+Wire 6 (-148 303) (-138 308);
+Wire 6 (-148 303) (-138 298);
+Wire 6 (-138 308) (-138 298);
+Wire 6 (148 303) (138 308);
+Wire 6 (148 303) (138 298);
+Wire 6 (138 308) (138 298);
+Wire 6 (148 203) (300 203);
+Wire 6 (148 -203) (300 -203);
+Wire 6 (285 203) (285 -203);
+Wire 6 (285 203) (280 193);
+Wire 6 (285 203) (290 193);
+Wire 6 (280 193) (290 193);
+Wire 6 (285 -203) (280 -193);
+Wire 6 (285 -203) (290 -193);
+Wire 6 (280 -193) (290 -193);
+Change Size 50;
+Change Ratio 6;
+Text 'Default Padstyle: RX74p8Y23p62D0T' SR0 (-712 -403);
+Change Size 50;
+Change Ratio 6;
+Text 'Pin 1 Padstyle: RX74p8Y23p62D0T' SR0 (-681 -463);
+Change Size 50;
+Change Ratio 6;
+Text 'Alt 1 Padstyle: OX60Y90D30P' SR0 (-583 -643);
+Change Size 50;
+Change Ratio 6;
+Text 'Alt 2 Padstyle: OX90Y60D30P' SR0 (-583 -703);
+Change Size 25;
+Change Ratio 4;
+Text '.05in/1.27mm' SR0 (-533 138);
+Change Size 25;
+Change Ratio 4;
+Text '.3700787in/9.4mm' SR0 (-170 -278);
+Change Size 25;
+Change Ratio 4;
+Text '0.295in/7.493mm' SR0 (-159 323);
+Change Size 25;
+Change Ratio 4;
+Text '0.406in/10.312mm' SR0 (305 -12);
+Layer 21;
+Wire 6 (-152 -208) (152 -208);
+Wire 6 (152 208) (-152 208);
+Wire 6 (-254 175) -180 (-260 175);
+Wire 6 (-260 175) -180 (-254 175);
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-68 -25);
+Layer 51;
+Wire 6 (-148 -203) (148 -203);
+Wire 6 (148 -203) (148 203);
+Wire 6 (148 203) (-148 203);
+Wire 6 (-148 203) (-148 -203);
+Wire 0 (-134 175) -180 (-140 175);
+Wire 0 (-140 175) -180 (-134 175);
+Wire 6 (12 203) -180 (-12 203);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-129 -25);
+Layer 25;
+
+Edit 'Si8441_SOIC-16.sym';
+Grid Mil;
+Layer 94;
+Pin 'VDD1' Pas None Middle R0 Both 0 (100 0)
+Pin 'GND1_2' Pas None Middle R0 Both 0 (100 -100)
+Pin 'A1' In None Middle R0 Both 0 (100 -200)
+Pin 'A2' In None Middle R0 Both 0 (100 -300)
+Pin 'A3' In None Middle R0 Both 0 (100 -400)
+Pin 'A4' Out None Middle R0 Both 0 (100 -500)
+Pin 'EN1' In None Middle R0 Both 0 (100 -600)
+Pin 'GND1' Pas None Middle R0 Both 0 (100 -700)
+Pin 'GND2_2' Pas None Middle R180 Both 0 (2300 -700)
+Pin 'EN2' In None Middle R180 Both 0 (2300 -600)
+Pin 'B4' In None Middle R180 Both 0 (2300 -500)
+Pin 'B3' Out None Middle R180 Both 0 (2300 -400)
+Pin 'B2' Out None Middle R180 Both 0 (2300 -300)
+Pin 'B1' Out None Middle R180 Both 0 (2300 -200)
+Pin 'GND2' Pas None Middle R180 Both 0 (2300 -100)
+Pin 'VDD2' Pas None Middle R180 Both 0 (2300 0)
+Wire 6 (300 200) (300 -900);
+Wire 6 (300 -900) (2100 -900);
+Wire 6 (2100 -900) (2100 200);
+Wire 6 (2100 200) (300 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (1014 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (989 259);
+
+Edit 'SI8441BB-D-IS.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add Si8441_SOIC-16 'A' Next  0 (0 0);
+Package 'SOIC-16W_SIL';
+Technology '';
+Attribute Copyright 'Copyright (C) 2021 Ultra Librarian. All rights reserved.';
+Attribute Mfr_Name 'Silicon Labs';
+Attribute Manufacturer_Part_Number 'SI8441BB-D-IS';
+Attribute Digi-Key_Part_Number_1 '336-1762-5-ND';
+Connect 'A.VDD1' '1';
+Connect 'A.GND1_2' '2';
+Connect 'A.A1' '3';
+Connect 'A.A2' '4';
+Connect 'A.A3' '5';
+Connect 'A.A4' '6';
+Connect 'A.EN1' '7';
+Connect 'A.GND1' '8';
+Connect 'A.GND2_2' '9';
+Connect 'A.EN2' '10';
+Connect 'A.B4' '11';
+Connect 'A.B3' '12';
+Connect 'A.B2' '13';
+Connect 'A.B1' '14';
+Connect 'A.GND2' '15';
+Connect 'A.VDD2' '16';

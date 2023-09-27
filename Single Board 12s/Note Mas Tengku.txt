@@ -1,0 +1,4 @@
+layer 1/top: S 
+layer 2/green: V+ltc
+layer 3/yellow: GND 0V
+layer 4/bottom: C

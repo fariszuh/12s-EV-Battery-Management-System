@@ -1,0 +1,9 @@
+Manufacturer=Linear Technology
+PartNumber=LTC6803IG-3#PBF
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=44
+Version=1.1
+Released=2017-09-28 08:55:09
+Downloaded=2021-11-18 07:39:01
+3D=Y

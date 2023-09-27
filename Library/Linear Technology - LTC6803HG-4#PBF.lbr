@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="LINEAR_TECHNOLOGY_LTC6803HG-4#PBF_0">
+                    <description>LT-LTC6803-4-G-44</description>
+                    <wire layer="21" y2="6.55" width="0.15" x2="-2.025" y1="-6.55" x1="-2.025"/>
+                    <wire layer="21" y2="6.55" width="0.15" x2="2.025" y1="-6.55" x1="2.025"/>
+                    <wire layer="21" y2="6.55" width="0.15" x2="2.025" y1="6.55" x1="-2.025"/>
+                    <wire layer="21" y2="-6.55" width="0.15" x2="2.025" y1="-6.55" x1="-2.025"/>
+                    <wire layer="51" y2="6.55" width="0.1" x2="-2.8" y1="-6.55" x1="-2.8"/>
+                    <wire layer="51" y2="6.55" width="0.1" x2="2.8" y1="-6.55" x1="2.8"/>
+                    <wire layer="51" y2="6.55" width="0.1" x2="2.8" y1="6.55" x1="-2.8"/>
+                    <wire layer="51" y2="-6.55" width="0.1" x2="2.8" y1="-6.55" x1="-2.8"/>
+                    <wire layer="39" y2="6.65" width="0.1" x2="-4.4" y1="-6.65" x1="-4.4"/>
+                    <wire layer="39" y2="6.65" width="0.1" x2="4.4" y1="6.65" x1="-4.4"/>
+                    <wire layer="39" y2="-6.65" width="0.1" x2="4.4" y1="6.65" x1="4.4"/>
+                    <wire layer="39" y2="-6.65" width="0.1" x2="-4.4" y1="-6.65" x1="4.4"/>
+                    <text layer="25" align="bottom-left" y="6.65" x="-5.4" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="5.925" x="-3.375" layer="21" radius="0.125" width="0.25"/>
+                    <circle y="5.55" x="-1.025" layer="21" radius="0.3" width="0.6"/>
+                    <circle y="5.65" x="-1.9" layer="51" radius="0.5" width="0.1"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="100" dx="0.25" dy="1.9" y="5.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="0.25" dy="1.9" y="4.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="0.25" dy="1.9" y="4.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="0.25" dy="1.9" y="3.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="0.25" dy="1.9" y="3.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="0.25" dy="1.9" y="2.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="0.25" dy="1.9" y="2.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="0.25" dy="1.9" y="1.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="0.25" dy="1.9" y="1.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="0.25" dy="1.9" y="0.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="0.25" dy="1.9" y="0.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-0.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-0.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-1.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-1.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-2.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-2.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-3.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-3.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-4.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-4.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-5.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="44" stop="yes" roundness="100" dx="0.25" dy="1.9" y="5.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="43" stop="yes" roundness="100" dx="0.25" dy="1.9" y="4.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="42" stop="yes" roundness="100" dx="0.25" dy="1.9" y="4.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="41" stop="yes" roundness="100" dx="0.25" dy="1.9" y="3.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="40" stop="yes" roundness="100" dx="0.25" dy="1.9" y="3.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="39" stop="yes" roundness="100" dx="0.25" dy="1.9" y="2.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="38" stop="yes" roundness="100" dx="0.25" dy="1.9" y="2.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="37" stop="yes" roundness="100" dx="0.25" dy="1.9" y="1.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="36" stop="yes" roundness="100" dx="0.25" dy="1.9" y="1.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="35" stop="yes" roundness="100" dx="0.25" dy="1.9" y="0.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="34" stop="yes" roundness="100" dx="0.25" dy="1.9" y="0.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="33" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-0.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="32" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-0.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="31" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-1.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="30" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-1.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="29" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-2.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="28" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-2.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="27" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-3.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="26" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-3.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="25" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-4.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-4.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="0.25" dy="1.9" y="-5.25" x="3.375" rot="R90" cream="yes"/>
+                </package>
+                <package name="LINEAR_TECHNOLOGY_LTC6803HG-4#PBF_1">
+                    <description>LT-LTC6803-4-G-44</description>
+                    <wire layer="21" y2="6.55" width="0.15" x2="-1.9" y1="-6.55" x1="-1.9"/>
+                    <wire layer="21" y2="6.55" width="0.15" x2="1.9" y1="-6.55" x1="1.9"/>
+                    <wire layer="21" y2="6.55" width="0.15" x2="1.9" y1="6.55" x1="-1.9"/>
+                    <wire layer="21" y2="-6.55" width="0.15" x2="1.9" y1="-6.55" x1="-1.9"/>
+                    <wire layer="51" y2="6.55" width="0.1" x2="-2.8" y1="-6.55" x1="-2.8"/>
+                    <wire layer="51" y2="6.55" width="0.1" x2="2.8" y1="-6.55" x1="2.8"/>
+                    <wire layer="51" y2="6.55" width="0.1" x2="2.8" y1="6.55" x1="-2.8"/>
+                    <wire layer="51" y2="-6.55" width="0.1" x2="2.8" y1="-6.55" x1="-2.8"/>
+                    <wire layer="39" y2="6.8" width="0.1" x2="-4.7" y1="-6.8" x1="-4.7"/>
+                    <wire layer="39" y2="6.8" width="0.1" x2="4.7" y1="6.8" x1="-4.7"/>
+                    <wire layer="39" y2="-6.8" width="0.1" x2="4.7" y1="6.8" x1="4.7"/>
+                    <wire layer="39" y2="-6.8" width="0.1" x2="-4.7" y1="-6.8" x1="4.7"/>
+                    <text layer="25" align="bottom-left" y="6.8" x="-5.7" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="5.975" x="-3.375" layer="21" radius="0.125" width="0.25"/>
+                    <circle y="5.55" x="-0.9" layer="21" radius="0.3" width="0.6"/>
+                    <circle y="5.65" x="-1.9" layer="51" radius="0.5" width="0.1"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="100" dx="0.25" dy="2.15" y="5.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="0.25" dy="2.15" y="4.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="0.25" dy="2.15" y="4.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="0.25" dy="2.15" y="3.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="0.25" dy="2.15" y="3.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="0.25" dy="2.15" y="2.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="0.25" dy="2.15" y="2.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="0.25" dy="2.15" y="1.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="0.25" dy="2.15" y="1.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="0.25" dy="2.15" y="0.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="0.25" dy="2.15" y="0.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-0.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-0.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-1.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-1.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-2.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-2.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-3.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-3.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-4.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-4.75" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-5.25" x="-3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="44" stop="yes" roundness="100" dx="0.25" dy="2.15" y="5.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="43" stop="yes" roundness="100" dx="0.25" dy="2.15" y="4.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="42" stop="yes" roundness="100" dx="0.25" dy="2.15" y="4.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="41" stop="yes" roundness="100" dx="0.25" dy="2.15" y="3.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="40" stop="yes" roundness="100" dx="0.25" dy="2.15" y="3.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="39" stop="yes" roundness="100" dx="0.25" dy="2.15" y="2.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="38" stop="yes" roundness="100" dx="0.25" dy="2.15" y="2.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="37" stop="yes" roundness="100" dx="0.25" dy="2.15" y="1.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="36" stop="yes" roundness="100" dx="0.25" dy="2.15" y="1.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="35" stop="yes" roundness="100" dx="0.25" dy="2.15" y="0.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="34" stop="yes" roundness="100" dx="0.25" dy="2.15" y="0.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="33" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-0.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="32" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-0.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="31" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-1.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="30" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-1.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="29" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-2.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="28" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-2.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="27" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-3.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="26" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-3.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="25" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-4.25" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-4.75" x="3.375" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="0.25" dy="2.15" y="-5.25" x="3.375" rot="R90" cream="yes"/>
+                </package>
+                <package name="LINEAR_TECHNOLOGY_LTC6803HG-4#PBF_2">
+                    <description>LT-LTC6803-4-G-44</description>
+                    <wire layer="21" y2="-6.55" width="0.15" x2="1.8" y1="-6.55" x1="-1.8"/>
+                    <wire layer="21" y2="6.55" width="0.15" x2="1.8" y1="6.55" x1="-1.8"/>
+                    <wire layer="21" y2="6.55" width="0.15" x2="1.8" y1="-6.55" x1="1.8"/>
+                    <wire layer="21" y2="6.55" width="0.15" x2="-1.8" y1="-6.55" x1="-1.8"/>
+                    <wire layer="51" y2="-6.55" width="0.1" x2="2.8" y1="-6.55" x1="-2.8"/>
+                    <wire layer="51" y2="6.55" width="0.1" x2="2.8" y1="6.55" x1="-2.8"/>
+                    <wire layer="51" y2="6.55" width="0.1" x2="2.8" y1="-6.55" x1="2.8"/>
+                    <wire layer="51" y2="6.55" width="0.1" x2="-2.8" y1="-6.55" x1="-2.8"/>
+                    <wire layer="39" y2="7.05" width="0.1" x2="-5.15" y1="-7.05" x1="-5.15"/>
+                    <wire layer="39" y2="7.05" width="0.1" x2="5.15" y1="7.05" x1="-5.15"/>
+                    <wire layer="39" y2="-7.05" width="0.1" x2="5.15" y1="7.05" x1="5.15"/>
+                    <wire layer="39" y2="-7.05" width="0.1" x2="-5.15" y1="-7.05" x1="5.15"/>
+                    <text layer="25" align="bottom-left" y="7.05" x="-6.15" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="5.55" x="-0.8" layer="21" radius="0.3" width="0.6"/>
+                    <circle y="5.975" x="-3.425" layer="21" radius="0.125" width="0.25"/>
+                    <circle y="5.65" x="-1.9" layer="51" radius="0.5" width="0.1"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-5.25" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-4.75" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="25" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-4.25" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="26" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-3.75" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="27" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-3.25" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="28" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-2.75" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="29" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-2.25" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="30" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-1.75" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="31" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-1.25" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="32" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-0.75" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="33" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-0.25" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="34" stop="yes" roundness="100" dx="0.25" dy="2.45" y="0.25" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="35" stop="yes" roundness="100" dx="0.25" dy="2.45" y="0.75" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="36" stop="yes" roundness="100" dx="0.25" dy="2.45" y="1.25" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="37" stop="yes" roundness="100" dx="0.25" dy="2.45" y="1.75" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="38" stop="yes" roundness="100" dx="0.25" dy="2.45" y="2.25" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="39" stop="yes" roundness="100" dx="0.25" dy="2.45" y="2.75" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="40" stop="yes" roundness="100" dx="0.25" dy="2.45" y="3.25" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="41" stop="yes" roundness="100" dx="0.25" dy="2.45" y="3.75" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="42" stop="yes" roundness="100" dx="0.25" dy="2.45" y="4.25" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="43" stop="yes" roundness="100" dx="0.25" dy="2.45" y="4.75" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="44" stop="yes" roundness="100" dx="0.25" dy="2.45" y="5.25" x="3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-5.25" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-4.75" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-4.25" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-3.75" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-3.25" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-2.75" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-2.25" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-1.75" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-1.25" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-0.75" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="0.25" dy="2.45" y="-0.25" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="0.25" dy="2.45" y="0.25" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="0.25" dy="2.45" y="0.75" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="0.25" dy="2.45" y="1.25" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="0.25" dy="2.45" y="1.75" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="0.25" dy="2.45" y="2.25" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="0.25" dy="2.45" y="2.75" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="0.25" dy="2.45" y="3.25" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="0.25" dy="2.45" y="3.75" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="0.25" dy="2.45" y="4.25" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="0.25" dy="2.45" y="4.75" x="-3.425" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="100" dx="0.25" dy="2.45" y="5.25" x="-3.425" rot="R90" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="LINEAR_TECHNOLOGY_LTC6803HG-4#PBF_0_0">
+                    <description>LT-LTC6803-4-G-44</description>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="0.0" y1="-101.6" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="20.32" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-101.6" width="0.508" x2="20.32" y1="-5.08" x1="20.32"/>
+                    <wire layer="94" y2="-101.6" width="0.508" x2="0.0" y1="-101.6" x1="20.32"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="0.0" y1="-7.62" x1="0.0"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="20.32" y1="-7.62" x1="20.32"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="20.32" y1="-10.16" x1="20.32"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="20.32" y1="-15.24" x1="20.32"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="20.32" y1="-17.78" x1="20.32"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="20.32" y1="-22.86" x1="20.32"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="20.32" y1="-25.4" x1="20.32"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="20.32" y1="-30.48" x1="20.32"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="20.32" y1="-33.02" x1="20.32"/>
+                    <wire layer="94" y2="-38.1" width="0.15" x2="20.32" y1="-38.1" x1="20.32"/>
+                    <wire layer="94" y2="-40.64" width="0.15" x2="20.32" y1="-40.64" x1="20.32"/>
+                    <wire layer="94" y2="-45.72" width="0.15" x2="20.32" y1="-45.72" x1="20.32"/>
+                    <wire layer="94" y2="-48.26" width="0.15" x2="20.32" y1="-48.26" x1="20.32"/>
+                    <wire layer="94" y2="-53.34" width="0.15" x2="20.32" y1="-53.34" x1="20.32"/>
+                    <wire layer="94" y2="-55.88" width="0.15" x2="20.32" y1="-55.88" x1="20.32"/>
+                    <wire layer="94" y2="-60.96" width="0.15" x2="20.32" y1="-60.96" x1="20.32"/>
+                    <wire layer="94" y2="-63.5" width="0.15" x2="20.32" y1="-63.5" x1="20.32"/>
+                    <wire layer="94" y2="-68.58" width="0.15" x2="20.32" y1="-68.58" x1="20.32"/>
+                    <wire layer="94" y2="-71.12" width="0.15" x2="20.32" y1="-71.12" x1="20.32"/>
+                    <wire layer="94" y2="-76.2" width="0.15" x2="20.32" y1="-76.2" x1="20.32"/>
+                    <wire layer="94" y2="-78.74" width="0.15" x2="20.32" y1="-78.74" x1="20.32"/>
+                    <wire layer="94" y2="-83.82" width="0.15" x2="20.32" y1="-83.82" x1="20.32"/>
+                    <wire layer="94" y2="-86.36" width="0.15" x2="20.32" y1="-86.36" x1="20.32"/>
+                    <wire layer="94" y2="-91.44" width="0.15" x2="20.32" y1="-91.44" x1="20.32"/>
+                    <wire layer="94" y2="-93.98" width="0.15" x2="20.32" y1="-93.98" x1="20.32"/>
+                    <wire layer="94" y2="-99.06" width="0.15" x2="20.32" y1="-99.06" x1="20.32"/>
+                    <wire layer="94" y2="-99.06" width="0.15" x2="0.0" y1="-99.06" x1="0.0"/>
+                    <wire layer="94" y2="-93.98" width="0.15" x2="0.0" y1="-93.98" x1="0.0"/>
+                    <wire layer="94" y2="-68.58" width="0.15" x2="0.0" y1="-68.58" x1="0.0"/>
+                    <wire layer="94" y2="-73.66" width="0.15" x2="0.0" y1="-73.66" x1="0.0"/>
+                    <wire layer="94" y2="-63.5" width="0.15" x2="0.0" y1="-63.5" x1="0.0"/>
+                    <wire layer="94" y2="-58.42" width="0.15" x2="0.0" y1="-58.42" x1="0.0"/>
+                    <wire layer="94" y2="-53.34" width="0.15" x2="0.0" y1="-53.34" x1="0.0"/>
+                    <wire layer="94" y2="-48.26" width="0.15" x2="0.0" y1="-48.26" x1="0.0"/>
+                    <wire layer="94" y2="-38.1" width="0.15" x2="0.0" y1="-38.1" x1="0.0"/>
+                    <wire layer="94" y2="-43.18" width="0.15" x2="0.0" y1="-43.18" x1="0.0"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="0.0" y1="-25.4" x1="0.0"/>
+                    <wire layer="94" y2="-27.94" width="0.15" x2="0.0" y1="-27.94" x1="0.0"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="0.0" y1="-30.48" x1="0.0"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="0.0" y1="-33.02" x1="0.0"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="0.0" y1="-12.7" x1="0.0"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="0.0" y1="-15.24" x1="0.0"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="0.0" y1="-17.78" x1="0.0"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="0.0" y1="-20.32" x1="0.0"/>
+                    <text layer="95" align="top-left" y="-2.54" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-106.68" x="0.0" rot="R0" size="2.54">LTC6803HG-4#PBF</text>
+                    <pin direction="pwr" name="V+" visible="both" length="middle" y="-7.62" x="-5.08"/>
+                    <pin direction="in" name="C12" visible="both" length="middle" y="-7.62" x="25.4" rot="R180"/>
+                    <pin direction="hiz" name="S12" visible="both" length="middle" y="-10.16" x="25.4" rot="R180"/>
+                    <pin direction="in" name="C11" visible="both" length="middle" y="-15.24" x="25.4" rot="R180"/>
+                    <pin direction="hiz" name="S11" visible="both" length="middle" y="-17.78" x="25.4" rot="R180"/>
+                    <pin direction="in" name="C10" visible="both" length="middle" y="-22.86" x="25.4" rot="R180"/>
+                    <pin direction="hiz" name="S10" visible="both" length="middle" y="-25.4" x="25.4" rot="R180"/>
+                    <pin direction="in" name="C9" visible="both" length="middle" y="-30.48" x="25.4" rot="R180"/>
+                    <pin direction="hiz" name="S9" visible="both" length="middle" y="-33.02" x="25.4" rot="R180"/>
+                    <pin direction="in" name="C8" visible="both" length="middle" y="-38.1" x="25.4" rot="R180"/>
+                    <pin direction="hiz" name="S8" visible="both" length="middle" y="-40.64" x="25.4" rot="R180"/>
+                    <pin direction="in" name="C7" visible="both" length="middle" y="-45.72" x="25.4" rot="R180"/>
+                    <pin direction="hiz" name="S7" visible="both" length="middle" y="-48.26" x="25.4" rot="R180"/>
+                    <pin direction="in" name="C6" visible="both" length="middle" y="-53.34" x="25.4" rot="R180"/>
+                    <pin direction="hiz" name="S6" visible="both" length="middle" y="-55.88" x="25.4" rot="R180"/>
+                    <pin direction="in" name="C5" visible="both" length="middle" y="-60.96" x="25.4" rot="R180"/>
+                    <pin direction="hiz" name="S5" visible="both" length="middle" y="-63.5" x="25.4" rot="R180"/>
+                    <pin direction="in" name="C4" visible="both" length="middle" y="-68.58" x="25.4" rot="R180"/>
+                    <pin direction="hiz" name="S4" visible="both" length="middle" y="-71.12" x="25.4" rot="R180"/>
+                    <pin direction="in" name="C3" visible="both" length="middle" y="-76.2" x="25.4" rot="R180"/>
+                    <pin direction="hiz" name="S3" visible="both" length="middle" y="-78.74" x="25.4" rot="R180"/>
+                    <pin direction="in" name="C2" visible="both" length="middle" y="-83.82" x="25.4" rot="R180"/>
+                    <pin direction="hiz" name="S2" visible="both" length="middle" y="-86.36" x="25.4" rot="R180"/>
+                    <pin direction="in" name="C1" visible="both" length="middle" y="-91.44" x="25.4" rot="R180"/>
+                    <pin direction="hiz" name="S1" visible="both" length="middle" y="-93.98" x="25.4" rot="R180"/>
+                    <pin direction="in" name="C0" visible="both" length="middle" y="-99.06" x="25.4" rot="R180"/>
+                    <pin direction="pwr" name="V-" visible="both" length="middle" y="-99.06" x="-5.08"/>
+                    <pin direction="pas" name="NC" visible="both" length="middle" y="-93.98" x="-5.08"/>
+                    <pin direction="in" name="VTEMP1" visible="both" length="middle" y="-68.58" x="-5.08"/>
+                    <pin direction="in" name="VTEMP2" visible="both" length="middle" y="-73.66" x="-5.08"/>
+                    <pin direction="out" name="VREF" visible="both" length="middle" y="-63.5" x="-5.08"/>
+                    <pin direction="pwr" name="VREG" visible="both" length="middle" y="-58.42" x="-5.08"/>
+                    <pin direction="in" name="TOS" visible="both" length="middle" y="-53.34" x="-5.08"/>
+                    <pin direction="oc" name="WDTB" visible="both" length="middle" y="-48.26" x="-5.08"/>
+                    <pin direction="io" name="GPIO1" visible="both" length="middle" y="-38.1" x="-5.08"/>
+                    <pin direction="io" name="GPIO2" visible="both" length="middle" y="-43.18" x="-5.08"/>
+                    <pin direction="in" name="A0" visible="both" length="middle" y="-25.4" x="-5.08"/>
+                    <pin direction="in" name="A1" visible="both" length="middle" y="-27.94" x="-5.08"/>
+                    <pin direction="in" name="A2" visible="both" length="middle" y="-30.48" x="-5.08"/>
+                    <pin direction="in" name="A3" visible="both" length="middle" y="-33.02" x="-5.08"/>
+                    <pin direction="in" name="SCKI" visible="both" length="middle" y="-12.7" x="-5.08"/>
+                    <pin direction="in" name="SDI" visible="both" length="middle" y="-15.24" x="-5.08"/>
+                    <pin direction="oc" name="SDO" visible="both" length="middle" y="-17.78" x="-5.08"/>
+                    <pin direction="in" name="CSBI" visible="both" length="middle" y="-20.32" x="-5.08"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="LINEAR_TECHNOLOGY_LTC6803HG-4#PBF">
+                    <description>LT-LTC6803-4-G-44</description>
+                    <gates>
+                        <gate name="G$0" symbol="LINEAR_TECHNOLOGY_LTC6803HG-4#PBF_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="LINEAR_TECHNOLOGY_LTC6803HG-4#PBF_0_0" package="LINEAR_TECHNOLOGY_LTC6803HG-4#PBF_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="V+"/>
+                                <connect gate="G$0" pad="10" pin="C8"/>
+                                <connect gate="G$0" pad="11" pin="S8"/>
+                                <connect gate="G$0" pad="12" pin="C7"/>
+                                <connect gate="G$0" pad="13" pin="S7"/>
+                                <connect gate="G$0" pad="14" pin="C6"/>
+                                <connect gate="G$0" pad="15" pin="S6"/>
+                                <connect gate="G$0" pad="16" pin="C5"/>
+                                <connect gate="G$0" pad="17" pin="S5"/>
+                                <connect gate="G$0" pad="18" pin="C4"/>
+                                <connect gate="G$0" pad="19" pin="S4"/>
+                                <connect gate="G$0" pad="2" pin="C12"/>
+                                <connect gate="G$0" pad="20" pin="C3"/>
+                                <connect gate="G$0" pad="21" pin="S3"/>
+                                <connect gate="G$0" pad="22" pin="C2"/>
+                                <connect gate="G$0" pad="23" pin="S2"/>
+                                <connect gate="G$0" pad="24" pin="C1"/>
+                                <connect gate="G$0" pad="25" pin="S1"/>
+                                <connect gate="G$0" pad="26" pin="C0"/>
+                                <connect gate="G$0" pad="27" pin="V-"/>
+                                <connect gate="G$0" pad="28" pin="NC"/>
+                                <connect gate="G$0" pad="29" pin="VTEMP1"/>
+                                <connect gate="G$0" pad="3" pin="S12"/>
+                                <connect gate="G$0" pad="30" pin="VTEMP2"/>
+                                <connect gate="G$0" pad="31" pin="VREF"/>
+                                <connect gate="G$0" pad="32" pin="VREG"/>
+                                <connect gate="G$0" pad="33" pin="TOS"/>
+                                <connect gate="G$0" pad="34" pin="WDTB"/>
+                                <connect gate="G$0" pad="35" pin="GPIO1"/>
+                                <connect gate="G$0" pad="36" pin="GPIO2"/>
+                                <connect gate="G$0" pad="37" pin="A0"/>
+                                <connect gate="G$0" pad="38" pin="A1"/>
+                                <connect gate="G$0" pad="39" pin="A2"/>
+                                <connect gate="G$0" pad="4" pin="C11"/>
+                                <connect gate="G$0" pad="40" pin="A3"/>
+                                <connect gate="G$0" pad="41" pin="SCKI"/>
+                                <connect gate="G$0" pad="42" pin="SDI"/>
+                                <connect gate="G$0" pad="43" pin="SDO"/>
+                                <connect gate="G$0" pad="44" pin="CSBI"/>
+                                <connect gate="G$0" pad="5" pin="S11"/>
+                                <connect gate="G$0" pad="6" pin="C10"/>
+                                <connect gate="G$0" pad="7" pin="S10"/>
+                                <connect gate="G$0" pad="8" pin="C9"/>
+                                <connect gate="G$0" pad="9" pin="S9"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="Vin_MaxV" value="60"/>
+                                    <attribute name="Package_Version" value="Rev. Ã ̃, 06/2010"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="BA7F31F3-B2E0-4312-B550-1E6C11B00551"/>
+                                    <attribute name="pin_0_0_40_inside_edge" value="clock"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="Type_of_Charger" value="Battery Stack Monitor"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.linear.com/"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="ciiva_ids" value="1416646"/>
+                                    <attribute name="Datasheet_Version" value="Rev. A"/>
+                                    <attribute name="import_ts" value="1521854382"/>
+                                    <attribute name="Package_Description" value="44-Pin Plastic SSOP, Body 12.8 x 5.3 mm, Pitch 0.5 mm"/>
+                                    <attribute name="datasheet" value="http://cds.linear.com/docs/en/datasheet/680324fa.pdf"/>
+                                    <attribute name="MPN" value="LTC6803HG-4#PBF"/>
+                                    <attribute name="vault_revision" value="890CB210-B5D1-4A20-8471-0AD6F7E52161"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="release_date" value="1377764895"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="Number_of_Cells" value="&gt; 1000 V of stacked Li-Ion cells"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="MF" value="Linear Technology"/>
+                                    <attribute name="Battery_Chemistry" value="Li-Ion, Supercapacitors, Multi-Chemistry"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="package" value="G-44"/>
+                                    <attribute name="Component_Link_3_URL" value="http://cds.linear.com/docs/en/packaging/SSOP_44_05-08-1754.pdf"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="LINEAR_TECHNOLOGY_LTC6803HG-4#PBF_0_1" package="LINEAR_TECHNOLOGY_LTC6803HG-4#PBF_1">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="V+"/>
+                                <connect gate="G$0" pad="10" pin="C8"/>
+                                <connect gate="G$0" pad="11" pin="S8"/>
+                                <connect gate="G$0" pad="12" pin="C7"/>
+                                <connect gate="G$0" pad="13" pin="S7"/>
+                                <connect gate="G$0" pad="14" pin="C6"/>
+                                <connect gate="G$0" pad="15" pin="S6"/>
+                                <connect gate="G$0" pad="16" pin="C5"/>
+                                <connect gate="G$0" pad="17" pin="S5"/>
+                                <connect gate="G$0" pad="18" pin="C4"/>
+                                <connect gate="G$0" pad="19" pin="S4"/>
+                                <connect gate="G$0" pad="2" pin="C12"/>
+                                <connect gate="G$0" pad="20" pin="C3"/>
+                                <connect gate="G$0" pad="21" pin="S3"/>
+                                <connect gate="G$0" pad="22" pin="C2"/>
+                                <connect gate="G$0" pad="23" pin="S2"/>
+                                <connect gate="G$0" pad="24" pin="C1"/>
+                                <connect gate="G$0" pad="25" pin="S1"/>
+                                <connect gate="G$0" pad="26" pin="C0"/>
+                                <connect gate="G$0" pad="27" pin="V-"/>
+                                <connect gate="G$0" pad="28" pin="NC"/>
+                                <connect gate="G$0" pad="29" pin="VTEMP1"/>
+                                <connect gate="G$0" pad="3" pin="S12"/>
+                                <connect gate="G$0" pad="30" pin="VTEMP2"/>
+                                <connect gate="G$0" pad="31" pin="VREF"/>
+                                <connect gate="G$0" pad="32" pin="VREG"/>
+                                <connect gate="G$0" pad="33" pin="TOS"/>
+                                <connect gate="G$0" pad="34" pin="WDTB"/>
+                                <connect gate="G$0" pad="35" pin="GPIO1"/>
+                                <connect gate="G$0" pad="36" pin="GPIO2"/>
+                                <connect gate="G$0" pad="37" pin="A0"/>
+                                <connect gate="G$0" pad="38" pin="A1"/>
+                                <connect gate="G$0" pad="39" pin="A2"/>
+                                <connect gate="G$0" pad="4" pin="C11"/>
+                                <connect gate="G$0" pad="40" pin="A3"/>
+                                <connect gate="G$0" pad="41" pin="SCKI"/>
+                                <connect gate="G$0" pad="42" pin="SDI"/>
+                                <connect gate="G$0" pad="43" pin="SDO"/>
+                                <connect gate="G$0" pad="44" pin="CSBI"/>
+                                <connect gate="G$0" pad="5" pin="S11"/>
+                                <connect gate="G$0" pad="6" pin="C10"/>
+                                <connect gate="G$0" pad="7" pin="S10"/>
+                                <connect gate="G$0" pad="8" pin="C9"/>
+                                <connect gate="G$0" pad="9" pin="S9"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="Vin_MaxV" value="60"/>
+                                    <attribute name="Package_Version" value="Rev. Ã ̃, 06/2010"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="BA7F31F3-B2E0-4312-B550-1E6C11B00551"/>
+                                    <attribute name="pin_0_0_40_inside_edge" value="clock"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="Type_of_Charger" value="Battery Stack Monitor"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.linear.com/"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="ciiva_ids" value="1416646"/>
+                                    <attribute name="Datasheet_Version" value="Rev. A"/>
+                                    <attribute name="import_ts" value="1521854382"/>
+                                    <attribute name="Package_Description" value="44-Pin Plastic SSOP, Body 12.8 x 5.3 mm, Pitch 0.5 mm"/>
+                                    <attribute name="datasheet" value="http://cds.linear.com/docs/en/datasheet/680324fa.pdf"/>
+                                    <attribute name="MPN" value="LTC6803HG-4#PBF"/>
+                                    <attribute name="vault_revision" value="890CB210-B5D1-4A20-8471-0AD6F7E52161"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="release_date" value="1377764895"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="Number_of_Cells" value="&gt; 1000 V of stacked Li-Ion cells"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="MF" value="Linear Technology"/>
+                                    <attribute name="Battery_Chemistry" value="Li-Ion, Supercapacitors, Multi-Chemistry"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="package" value="G-44"/>
+                                    <attribute name="Component_Link_3_URL" value="http://cds.linear.com/docs/en/packaging/SSOP_44_05-08-1754.pdf"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="LINEAR_TECHNOLOGY_LTC6803HG-4#PBF_0_2" package="LINEAR_TECHNOLOGY_LTC6803HG-4#PBF_2">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="V+"/>
+                                <connect gate="G$0" pad="10" pin="C8"/>
+                                <connect gate="G$0" pad="11" pin="S8"/>
+                                <connect gate="G$0" pad="12" pin="C7"/>
+                                <connect gate="G$0" pad="13" pin="S7"/>
+                                <connect gate="G$0" pad="14" pin="C6"/>
+                                <connect gate="G$0" pad="15" pin="S6"/>
+                                <connect gate="G$0" pad="16" pin="C5"/>
+                                <connect gate="G$0" pad="17" pin="S5"/>
+                                <connect gate="G$0" pad="18" pin="C4"/>
+                                <connect gate="G$0" pad="19" pin="S4"/>
+                                <connect gate="G$0" pad="2" pin="C12"/>
+                                <connect gate="G$0" pad="20" pin="C3"/>
+                                <connect gate="G$0" pad="21" pin="S3"/>
+                                <connect gate="G$0" pad="22" pin="C2"/>
+                                <connect gate="G$0" pad="23" pin="S2"/>
+                                <connect gate="G$0" pad="24" pin="C1"/>
+                                <connect gate="G$0" pad="25" pin="S1"/>
+                                <connect gate="G$0" pad="26" pin="C0"/>
+                                <connect gate="G$0" pad="27" pin="V-"/>
+                                <connect gate="G$0" pad="28" pin="NC"/>
+                                <connect gate="G$0" pad="29" pin="VTEMP1"/>
+                                <connect gate="G$0" pad="3" pin="S12"/>
+                                <connect gate="G$0" pad="30" pin="VTEMP2"/>
+                                <connect gate="G$0" pad="31" pin="VREF"/>
+                                <connect gate="G$0" pad="32" pin="VREG"/>
+                                <connect gate="G$0" pad="33" pin="TOS"/>
+                                <connect gate="G$0" pad="34" pin="WDTB"/>
+                                <connect gate="G$0" pad="35" pin="GPIO1"/>
+                                <connect gate="G$0" pad="36" pin="GPIO2"/>
+                                <connect gate="G$0" pad="37" pin="A0"/>
+                                <connect gate="G$0" pad="38" pin="A1"/>
+                                <connect gate="G$0" pad="39" pin="A2"/>
+                                <connect gate="G$0" pad="4" pin="C11"/>
+                                <connect gate="G$0" pad="40" pin="A3"/>
+                                <connect gate="G$0" pad="41" pin="SCKI"/>
+                                <connect gate="G$0" pad="42" pin="SDI"/>
+                                <connect gate="G$0" pad="43" pin="SDO"/>
+                                <connect gate="G$0" pad="44" pin="CSBI"/>
+                                <connect gate="G$0" pad="5" pin="S11"/>
+                                <connect gate="G$0" pad="6" pin="C10"/>
+                                <connect gate="G$0" pad="7" pin="S10"/>
+                                <connect gate="G$0" pad="8" pin="C9"/>
+                                <connect gate="G$0" pad="9" pin="S9"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="Vin_MaxV" value="60"/>
+                                    <attribute name="Package_Version" value="Rev. Ã ̃, 06/2010"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="BA7F31F3-B2E0-4312-B550-1E6C11B00551"/>
+                                    <attribute name="pin_0_0_40_inside_edge" value="clock"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="Type_of_Charger" value="Battery Stack Monitor"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.linear.com/"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="ciiva_ids" value="1416646"/>
+                                    <attribute name="Datasheet_Version" value="Rev. A"/>
+                                    <attribute name="import_ts" value="1521854382"/>
+                                    <attribute name="Package_Description" value="44-Pin Plastic SSOP, Body 12.8 x 5.3 mm, Pitch 0.5 mm"/>
+                                    <attribute name="datasheet" value="http://cds.linear.com/docs/en/datasheet/680324fa.pdf"/>
+                                    <attribute name="MPN" value="LTC6803HG-4#PBF"/>
+                                    <attribute name="vault_revision" value="890CB210-B5D1-4A20-8471-0AD6F7E52161"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="release_date" value="1377764895"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="Number_of_Cells" value="&gt; 1000 V of stacked Li-Ion cells"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="MF" value="Linear Technology"/>
+                                    <attribute name="Battery_Chemistry" value="Li-Ion, Supercapacitors, Multi-Chemistry"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="package" value="G-44"/>
+                                    <attribute name="Component_Link_3_URL" value="http://cds.linear.com/docs/en/packaging/SSOP_44_05-08-1754.pdf"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
